@@ -1,0 +1,89 @@
+body{
+    background-color: #3043eb;
+
+}
+.container{
+    background: white;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.header{
+    border-bottom: 1px-solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.boton-agregar{
+    display: block;
+    margin: auto;
+    margin-top: -15px;
+    padding: 4px 10px;
+    font-weight: bold;
+    border: 3px solid black;
+}
+.boton-agregar:hover{
+  background-color: aquamarine;  
+}
+
+.lista-tareas{
+
+    list-style: none;
+    padding: 0%;
+}
+
+.lista-tareas li{
+    margin: 10px 0;
+    background-attachment: rgb(151, 149, 149);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+.lista-tareas li:hover{
+    background-color: rgb(182, 184, 183);
+}
+
+.boton-eliminar{
+    background-color: black;
+    color: white;
+    font-weight:bold;
+    border: none;
+}
+.boton-eliminar:hover{background: rgb(156, 3, 3)}
+
+.input-tarea 
+{
+    border: none;
+    background-color: rgb(124, 126, 126);
+    padding: 4px;
+    width: 100%;
+    outline:none;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+
+.input-tarea:focus{
+    background-color: beige;
+}
+
+.boron-limpiar{
+    display: block;
+
+margin:auto;
+margin-right:0;
+padding: 4px 10px;
+font-weight: bold;
+color: red ;
+border: 1px solid red;
+background-color: aliceblue;
+}
+
+.boton-limpiar:hover{
+    color: wheat;
+    background-color: red ;
+}
